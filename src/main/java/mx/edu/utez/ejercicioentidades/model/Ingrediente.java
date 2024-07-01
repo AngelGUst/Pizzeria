@@ -3,9 +3,9 @@ package mx.edu.utez.ejercicioentidades.model;
 public class Ingrediente {
     private int id;
     private String nombre;
-    private Proveedor proveedor;
+    private int proveedor;
 
-    public Ingrediente(int id, String nombre, Proveedor proveedor) {
+    public Ingrediente(int id, String nombre, int proveedor) {
         this.id = id;
         this.nombre = nombre;
         this.proveedor = proveedor;
@@ -27,12 +27,12 @@ public class Ingrediente {
         this.nombre = nombre;
     }
 
-    public Proveedor getProveedor() {
+    public int getProveedor() {
         return proveedor;
     }
 
-    public void setProveedor(Proveedor proveedor) {
-        this.proveedor = proveedor;
+    public void setProveedor(int proveedor) {
+        this.proveedor= proveedor;
     }
 }
 

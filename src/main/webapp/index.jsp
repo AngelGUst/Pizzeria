@@ -31,5 +31,9 @@
     </tr>
     <% } %>
 </table>
+
+<a href="proveedor.jsp">proveedores</a>
+<a href="ingrediente.jsp">Ingre</a>
+<a href="pizza.jsp">pizza</a>
 </body>
 </html>
